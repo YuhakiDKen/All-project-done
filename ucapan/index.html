@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: black">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 bg-primary mt-5 pb-5 pt-5 text-center"><h1>Happy Birthday Adek sayangku 🥳🥳🥳🥳🥳</h1></div>
+        <div class="col-1"></div>
+      </div>
+      <div class="row mt-5">
+        <div class="text-center text-white">
+          Selamat Ulang Tahun Adek Sayangku
+          <br>
+          Abang minta maaf yak sayang baru ngasihnya sekarang dan abang Minta maaf kalau tampilannya sederhana 
+          <br>
+          Tidak ada hari lain yang seistimewa hari ulang tahun. Dan ketika itu adalah hari ulang tahun Adek Sayangku, Abang tidak bisa membiarkannya berlalu tanpa 
+          <br>
+          mengucapkan selamat ulang tahun yang spesial. Yang dapat membuatku bahagia bukanlah uang dan harta, melainkan hati & ketulusanmu dalam mencintaiku
+          <br>
+          selamat ulang tahun, dan semoga panjang umur sayang. Semoga Adek diberikan umur yang barokah, di berikan kesabaran dan ketabahan, di kuatkan hatinya,
+          <br>
+           berbakti kepada orangtua, menjadi pribadi yang lebih baiki, menjadi anak yang solihah, menjadi anak yang pintardan rajin. Abang Berdoa yang terbaik untuk 
+           <br>
+           Adek dan semoga Allah memberkahi umur adek yang ke 17 Tahun ini  AAAAMMIIIINNN.......
+           <br>
+           And i always love you Forever because you are my favorit Little Shot Sister <3
+            
+          <br>
+          <br>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-1"></div>
+        <div
+          class="col-5 bg-primary mt-5 pb-5 pt-5 text-center border border-black border-5"
+        >
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#Pilihan1"
+          >
+            Hayoooo apa ini
+          </button>
+          <div
+            class="modal fade"
+            id="Pilihan1"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Berproses</h1>
+                </div>
+                <div class="modal-body">Ini adalah semua tentang Adek Manisku</div>
+                <div class="modal-footer justify-content-center">
+                  <a href="pilihan1.html" class="btn btn-primary">
+                    Klik Aku Dong Sayang
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-5 bg-primary mt-5 pb-5 pt-5 text-center border border-black border-5"
+        >
+        
+        <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#Pilihan2"
+      >
+        coba tebak ini apa
+      </button>
+      <div
+            class="modal fade"
+            id="Pilihan2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Video Tentang Adek</h1>
+                </div>
+                <div class="modal-body">
+                Adek Lihat sendiri ajah bagus kok XDDD
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <audio src="voice/WhatsApp Ptt 2023-08-19 at 03.46.59.ogg" id="myAudio"></audio>
+                  <button class="btn btn-primary" id="playButton">
+                  Sayang Sentuh Dong Sayang Ahh...
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var audio = document.getElementById("myAudio");
+      var playButton = document.getElementById("playButton");
+
+      playButton.addEventListener("click", function () {
+        audio.play();
+        
+
+        audio.onended = function () {
+        window.location.href = "pilihan2.html";
+        };
+      });
+    </script>
+  </body>
+</html>
