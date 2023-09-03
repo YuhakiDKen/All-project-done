@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <audio src="WhatsApp Ptt 2023-08-19 at 03.46.59.ogg" id="myAudio"></audio>
+    <button id="playButton">clicks</button>
+    <script>
+      var audio = document.getElementById("myAudio");
+      var playButton = document.getElementById("playButton");
+
+      playButton.addEventListener("click", function () {
+        audio.play();
+        playButton.disabled = true;
+
+        audio.onended = function () {
+          playButton.disabled = false;
+        };
+      });
+    </script>
+  </body>
+</html>
