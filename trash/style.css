@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Poppins:wght@600&display=swap");
+
+* img {
+  width: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background: gray;
+}
+
+.wrapper {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-family: "ADLaM Display", cursive;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.wrapper .our_team {
+  display: flex;
+  width: auto;
+  border: solid black 1px;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background: gray;
+}
+
+.wrapper {
+  margin-top: 60px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
+.wrapper h1 {
+  font-family: "poppins", cursive;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.wrapper .our_team {
+  display: flex;
+} */
